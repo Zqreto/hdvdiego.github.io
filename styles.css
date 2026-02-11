@@ -1,0 +1,103 @@
+
+.nombre{
+    font-size: 22px;
+    color: white;
+}
+
+.actual{
+    font-size: 22px;
+}
+
+.principal{
+    display: flex; 
+    align-items: center; 
+    gap: 15px;
+    background-color: black;
+}
+
+.dato_esen{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.izquierda{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.foto{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.derecha{
+    padding: 30px;
+}
+
+header h1{
+    margin: 0;
+}
+
+header h3{
+    color: gray;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width: 900px) {
+    .contenedor{
+        grid-template-columns: 100%;
+        width: 95%;
+    }
+
+    .izquierda, .derecha{
+        padding: 20px;
+    }
+
+    .foto{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    .foto{
+        width: 100px;
+        height: 100px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    p, li{
+        font-size: 14px;
+    }
+}
