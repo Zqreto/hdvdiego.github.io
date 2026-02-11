@@ -1,25 +1,3 @@
-
-.nombre{
-    font-size: 22px;
-    color: white;
-}
-
-.actual{
-    font-size: 22px;
-}
-
-.principal{
-    display: flex; 
-    align-items: center; 
-    gap: 15px;
-    background-color: black;
-}
-
-.dato_esen{
-    display: flex;
-    flex-direction: column;
-}
-
 body{
     font-family: Arial, sans-serif;
     background: #f0f0f0;
@@ -53,13 +31,7 @@ body{
     padding: 30px;
 }
 
-header h1{
-    margin: 0;
-}
 
-header h3{
-    color: gray;
-}
 
 h2{
     border-bottom: 2px solid black;
